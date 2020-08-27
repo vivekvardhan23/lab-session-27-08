@@ -1,0 +1,65 @@
+# To find the  largest among three numbers prepared
+
+num1= float(input("Enter first number: "))
+num2= float(input("Enter second number:"))
+num3= float(input("Enter third number:"))
+
+#logic begins here
+if (num1 >= num2) and (num1 >= num3) :
+	largest + num1
+elif (nm2 >= num1) and (num2 >= num3):
+else:
+	largest + num3
+
+#display result
+print("The latgest number is", largest)
+
+Output:
+Enter first number : 10	
+Enter second number: 12
+Enter third number : 14
+The largest number is 14.0
+
+		
+
+#lcm of two numbers
+
+x = float(input("Enter first number: "))
+y = float(input("Enter second number: "))
+if (x > y):
+	greater = x
+else:
+	greater = y
+while(True):
+	if((greater % x == 0) and (greater % y ==0 ):
+	1cm = greater
+	break
+	greater += 1
+print(" The L.C.M. is"' 1cm)
+
+output:
+num1 = 12
+num2 = 24
+Lcm is 24
+
+
+#LCM and GCD for three numbers
+def 1cm(x, y, z):
+	gcd2 = gcd(y, z)
+	gcd3 = gcd(x, gcd2)
+	lcm2 = y*z // gcd2
+	lcm3 = z*lcm2 // gcd(x, lcm2)
+h=input("press:1 for two numbers LCM or \n press:2 for three numbers LCM\n  :")
+if h == "2":
+	x = int(input("number 1: "))
+	y = int(input("number 2: "))
+	z = int(input("number 3: "))
+	(res1, res2) = 1cm(x, y, z)
+	print("The LCM of " + str(x) + 	str(y) + "And " + str(z) +
+
+output:
+num1 = 11 
+num2 = 12
+num3 = 13
+lcm = 132
+gcd = 1
